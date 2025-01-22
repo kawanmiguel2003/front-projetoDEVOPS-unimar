@@ -14,10 +14,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-             cd fronticoma
-             npm ci && npm run build
+              cd fronticoma
+              npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DEVOPS_UNIMAR_6A210 }}
-          projectId: devops-unimar-6a210
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_UNIMAR_START_DEVOPS_KAWAN }}
+          projectId: unimar-start-devops-kawan
