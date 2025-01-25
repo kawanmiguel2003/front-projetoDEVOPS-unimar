@@ -51,7 +51,7 @@ const Dashboard = () => {
                 className="btn btn-outline"
               >
                 Excluir
-              </button>
+              </button> 
             </div>
           </div>
         ))}
