@@ -11,7 +11,7 @@ const About = () => {
       <p>
        Este projeto está sendo desendo desenvolvido como legado
        para estudo de técnicas de DevOps da turma de pós - graduação da
-       Unimar.
+       Unimar. XD
       </p>
       <Link to="/posts/create" className="btn">
         Criar post
