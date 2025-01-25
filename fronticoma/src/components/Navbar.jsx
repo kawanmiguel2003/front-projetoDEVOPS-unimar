@@ -21,6 +21,7 @@ const Navbar = () => {
         {`Olá ${user.displayName}`}
         <img src={user.photoURL || userimg} alt="User" width="30px" height="30px" />
         {`E-mail: ${user.email}`}
+        
       </>)}
       <ul className={styles.links_list}>
         <li>
